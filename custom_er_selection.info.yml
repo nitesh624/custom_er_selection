@@ -1,0 +1,5 @@
+name: 'Custom Entity reference plugin'
+type: module
+description: 'Provides custom entity reference plugins'
+package: Custom
+core_version_requirement: ^10 || ^11

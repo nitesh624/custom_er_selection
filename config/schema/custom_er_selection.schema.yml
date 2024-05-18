@@ -1,0 +1,15 @@
+entity_reference_selection.custom_er_selection_node_selection_id:
+  type: entity_reference_selection.default
+  label: 'Extended node selection with id handler settings'
+
+entity_reference_selection.custom_er_selection_node_selection_view_mode:
+  type: entity_reference_selection.default
+  label: 'Node selection with view mode handler settings'
+  mapping:
+    view_modes:
+      type: sequence
+      label: 'View modes'
+      nullable: true
+      sequence:
+        type: string
+        label: 'View Mode'
